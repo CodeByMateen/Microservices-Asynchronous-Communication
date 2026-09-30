@@ -1,0 +1,28 @@
+{
+  "name": "kafka-service",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "producer": "tsx src/producer.ts",
+    "consumer": "tsx src/consumer.ts",
+    "consumer2": "tsx src/consumer2.ts",
+    "consumer3": "tsx src/consumer3.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "amqplib": "^2.0.1",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "kafkajs": "^2.2.4"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.8",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

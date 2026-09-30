@@ -1,0 +1,44 @@
+Phase 1
+{ 
+monolithic architecture -- contains RabbitMQ implementation with failed worker experiment NACK and Dead Letter Queue (DLQ)
+
+What we practically built:
+Producer
+Queue
+Consumer/Worker
+Message
+ACK
+NACK
+Requeue
+Retry
+Dead Letter Queue
+
+Aur sabse important:
+
+Queue use karne ke liye microservices hona zaroori nahi.
+}
+
+Phase 2
+{
+Microservices architecture -- with api gateway all rabbit mq above features plus RabbitMQ Exchange and Kafka
+
+What we practically built:
+✅ Monolithic Architecture
+✅ Microservices Architecture
+✅ Independent Services
+✅ Synchronous HTTP communication
+✅ Asynchronous RabbitMQ
+✅ Producer / Consumer
+✅ Exchange with FanOut
+✅ Multiple Queues and Multiple Consumers
+✅ Pub/Sub
+✅ Retry
+✅ DLQ
+✅ Idempotency — concept
+✅ Kafka Producer / Consumer
+✅ Kafka Topics
+✅ Partitions
+✅ Consumer Groups
+✅ Offsets
+✅ API Gateway
+}
